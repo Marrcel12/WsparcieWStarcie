@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link,
+h1,
+h2,
+view-more {
+    color: white;
+}
+
+.logo {
+    position: fixed;
+    z-index: 4000;
+    bottom: 1vh;
+    right: 0;
+    width: 4vw;
+    height: 4, 2vh;
+}
+
+header {
+    background-image: url("../img/header/pictures_on_the_wall.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.view-more {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: #7F0000;
+    width: 180px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.view-more:hover {
+    background-color: white;
+    color: #7F0000;
+}
+
+.titles {
+    position: relative;
+    top: 30vh;
+    height: 300px;
+}
+
+.titleServices {
+    margin-top: 14%;
+    color: black;
+}
+
+p {
+    color: darkgrey;
+    text-align: center;
+}
+
+.ConServices {
+    margin-top: 15vh;
+    margin-bottom: 20vh;
+
+
+
+}
+
+p > i {
+    color: white;
+    border-radius: 50%;
+    background-color: #7F0000;
+    font-size: 10vh;
+    padding: 4vh;
+    transition: all 0.8s;
+}
+
+p > i:hover {
+    transform: rotate(360deg);
+    color: #7F0000;
+    background-color: white;
+    border: 0.5px solid #7F0000;
+
+}
+
+.OurProject {
+
+    background-color: azure;
+}
+
+.opisPort {
+    margin-bottom: 10vh;
+}
+
+.porfolio-image {
+    overflow: hidden;
+}
+
+.portfolio-image-background {
+    height: 50vh;
+    background-size: cover;
+
+    background-position: center;
+}
+
+.portfolio-image-mask {
+    height: 100%;
+    background-color: #7F0000;
+    opacity: 0;
+    text-align: center;
+
+}
+
+#plus {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    font-size: 50px;
+    color: white;
+}
+
+.portfolio-image-background:hover {
+    transform: scale(1.5);
+}
+
+.portfolio-image-mask:hover {
+    opacity: 0.6;
+}
+
+#portfolio-image-background-1 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+#portfolio-image-background-2 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+
+#portfolio-image-background-3 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#portfolio-image-background-4 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+#portfolio-image-background-5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+#portfolio-image-background-6 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+/*
+.fa-plus{
+    position: absolute;
+    top: 40%;
+}    
+*/
+
+#titleabout {
+    text-align: center;
+    color: black;
+}
+
+
+.socialIcon {
+    
+    text-align: center;
+}
+
+.icon {
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    padding: 1.6%;
+    background-color: azure;
+}
+
+.socialIcon:hover {
+    color: #7F0000;
+}
+
+.discabout {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150vh;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.contactUs {
+    position: relative;
+    height: 100vh;
+    background-image: url(../img/footer/world-map.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*///////*/
+
+/*Contact sectiom*/
+
+.content-header {
+    font-family: 'Oleo Script', cursive;
+    color: #fcc500;
+    font-size: 45px;
+}
+
+.section-content {
+    text-align: center;
+
+}
+
+#contact {
+
+    font-family: 'Teko', sans-serif;
+    padding-top: 60px;
+    width: 100%;
+    width: 100vw;
+    height: 550px;
+    color: #fff;
+}
+
+.contact-section {
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    left: 20%;
+}
+
+.contact-section .col-md-6 {
+    width: 50%;
+}
+
+.form-line {
+    border-right: 1px solid #B29999;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+label {
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+}
+
+.form-control {
+    font-size: 1.3em;
+    color: #080808;
+}
+
+textarea.form-control {
+    height: 171px;
+    width: 450px;
+
+}
+
+#submit {
+    font-size: 1.1em;
+    border-color: green;
+    background-color: deepskyblue;
+    width: 150px;
+    border-radius: 10%;
+    color: #fff;
+
+}
+
+.textArea {
+    display: inline-block;
+}
+
+form {
+    width: 100%;
+}
+
+.contactUs > h1 {
+    padding-top: 4vh;
+    text-align: center;
+}
+
+.contactUs > h1 + p {
+    color: white;
+}
+
+
+.textfooter {
+    position: relative;
+    text-align: center;
+    bottom: 0;
+}
+
+
+/*
+*/
+
+.scroll {
+    background-color: #c62828;
+}
+.socialIcon a:hover {text-decoration:none;}

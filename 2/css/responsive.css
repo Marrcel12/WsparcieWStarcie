@@ -1,0 +1,14 @@
+
+@media (max-width: 500px) {
+    #submit {
+    position: absolute;
+    top: 190px;
+    right: 119px;
+    margin: 2vh;
+    }
+    footer .socialIcon{
+        position: absolute;
+        top: 5vh;
+        left: 12vh;
+    }
+}
