@@ -312,7 +312,11 @@ header.masthead .post-heading .meta a {
     text-decoration: none;
     color: #212529;
 }
-
+.about{
+    background-image: url(../img/portfolio/Thinking%20and%20Awareness.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
 .post-preview > .post-meta > a:focus,
 .post-preview > .post-meta > a:hover {
     text-decoration: underline;
