@@ -80,7 +80,8 @@ img::-moz-selection {
 }
 
 #mainNav {
-    position: absolute;
+
+    position: fixed;
     border-bottom: 1px solid #e9ecef;
     background-color: white;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -279,7 +280,15 @@ header.masthead .post-heading .meta a {
         font-size: 30px;
     }
 }
-
+.ikonka{
+    width: 6vw;
+    padding: 1%;
+    position: fixed;
+    right: 0;
+    top: 100vh;
+    transform: translateY(-110%);
+    z-index: 55;
+}
 .post-preview > a {
     color: #212529;
 }
@@ -312,11 +321,13 @@ header.masthead .post-heading .meta a {
     text-decoration: none;
     color: #212529;
 }
-.about{
+
+.about {
     background-image: url(../img/portfolio/Thinking%20and%20Awareness.png);
     background-position: right;
     background-repeat: no-repeat;
 }
+
 .post-preview > .post-meta > a:focus,
 .post-preview > .post-meta > a:hover {
     text-decoration: underline;
@@ -407,7 +418,39 @@ header.masthead .post-heading .meta a {
 
 
 }
+.locations-title{
+    margin-top: 10vh;
+}
 
+.locations{
+    margin-top: 3vh;
+}
+#map {
+   
+    height: 500px;
+    border: 1px solid black;
+}
+.listPlace{
+    font-size: 1.7vh;
+}
+
+.lowList{
+    font-size: 1.6vh;
+}
+#Rekrutacja{
+    padding: 2%;
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+}
+.col-6 img{
+    width: 45vw;
+    margin-left: 2vw;
+}
+.rekrutacja ul {
+
+list-style-type: none;
+
+} 
 .floating-label-form-group .help-block {
     margin: 15px 0;
 }
