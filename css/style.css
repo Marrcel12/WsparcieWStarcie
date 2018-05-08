@@ -450,7 +450,22 @@ header.masthead .post-heading .meta a {
 
 list-style-type: none;
 
-} 
+
+}
+#Oferta{
+    padding: 2%;
+}
+.oferta{
+    margin-top: 5%;
+}
+.oferta{
+    padding: 1%;
+}
+.info2{
+    
+border-left-style: outset;
+
+}
 .floating-label-form-group .help-block {
     margin: 15px 0;
 }
@@ -463,12 +478,20 @@ list-style-type: none;
 .floating-label-form-group-with-focus label {
     color: #0085A1;
 }
+#Cowork{
+    margin-left: 4%;
+}
+.Cowork{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
 
 form .form-group:first-child .floating-label-form-group {
     border-top: 1px solid #dee2e6;
 }
 
 footer {
+        margin-top: 17vh;
     padding: 50px 0 65px;
 }
 
