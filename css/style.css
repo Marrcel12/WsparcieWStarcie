@@ -391,7 +391,7 @@ header.masthead .post-heading .meta a {
 
 }
 
-.col-4 {
+.a {
     height: 25vh;
     background-position: center;
     background-size: contain;
@@ -505,7 +505,14 @@ footer .copyright {
     margin-bottom: 0;
     text-align: center;
 }
-
+.contact{
+    margin-top: 25vh;
+    padding: 2%;
+}
+.contact-form{
+    
+    margin-top: 5vh;
+}
 .btn {
     font-size: 14px;
     font-weight: 800;
