@@ -19,6 +19,7 @@
 
     <!-- Css -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
@@ -67,7 +68,6 @@
                 <div class="col-lg-8 col-md-10 mx-auto ">
                     <div class="site-heading ">
                         <h1>Wsparcie w Starcie</h1>
-                        <span class="subheading ">Lorem ipsum dolor sit amet.</span>
                     </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@
                     Wsparcie w Starcie to projekt adresowany do osób od 16 do 26 roku życia,<br/> zamieszkałych na Pradze- Północ, Pradze-Południe i Targówku. <br/>Prowadzi go 8 organizacji pozarządowych. ,<br/>Dzięki dotacji z m.st. Warszawy oferta jest bezpłatna dla uczestników. <br/>Naszym celem jest wsparcie młodych ludzi w usamodzielnianiu się.</p>
             </div>
             <div class="row">
-                <span class="col-10">
+                <span class="col-md-10">
                     <h2>Jeśli:</h2>
                     - chcesz coś zmienić w swoim życiu, ale nie wiesz „co i jak”,<br/> - potrzebujesz pomocy w staniu się bardziej samodzielnym/ną w codziennych sprawach,<br/> - szukasz pracy (lub chcesz ją zamienić na lepszą), szkoły, kursu zawodowego,<br/> - szukasz wsparcia w sprawach urzędowych lub masz problemy finansowe,<br/> - myślisz o swoim rozwoju, szukasz na siebie pomysłu,<br/> - potrzebujesz doradztwa zawodowego,<br/> - chcesz po prostu pogadać<br/>
                     <p>to dobrze trafiłeś/łaś.<br/> Chcesz wiedzieć więcej?<a href=""> FAQ</a></p>
@@ -106,13 +106,13 @@
         </div>
         <p class="text-center">Centrum Młodych, ul. Inżynierska 1/79, Praga-Północ, Warszawa</p>
         <div class="row">
-            <div class="col-4 img1">
+            <div class="col-md-4 img1">
 
             </div>
-            <div class="col-4 img2">
+            <div class="col-md-4 img2">
 
             </div>
-            <div class="col-4 img3">
+            <div class="col-md-4 img3">
 
             </div>
         </div>
@@ -125,10 +125,10 @@
 
     <div class="container locations">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-6">
                 <div id="map"></div>
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
                 <ul class="listPlace">
                     <li><strong>Stowarzyszenie Dla Rodzin</strong>
                         <ul class=lowList>
@@ -162,7 +162,7 @@
     </div>
 
     <section class="rekrutacja">
-        <h1 id="Rekrutacja"> Rekrutacja</h1>
+        <h1 id="Rekrutacja" class="text-center"> Rekrutacja</h1>
         <div class="fluid-container ">
             <div class="row">
                 <div class="col-6">
@@ -225,7 +225,7 @@
     </section>
 
     <section class="Cowork">
-        <h1 id="Cowork">Współpraca</h1>
+        <h1 id="Cowork" class="text-center">Współpraca</h1>
         <p class="text-center">Możesz z nami współpracować na wiele sposobów:</p>
         <div class="container">
             <div class="row">
@@ -249,9 +249,10 @@
     </section>
 
     <section class="contact">
-        <h1 id="contact">Kontakt</h1>
-        <p>Projekt tworzą:</p>
+        <h1 id="contact" class="text-center">Kontakt</h1>
+
         <div class="container">
+            <p>Projekt tworza:</p>
             <div class="row">
                 <div class="col-4"></div>
                 <div class="col-4"></div>
@@ -281,33 +282,29 @@
 
                 <div class="container contact-form">
                     <div class="row">
-                       <p><strong>Napisz do nas odezwiemy sie!</strong></p>
+                        <p><strong>Napisz do nas odezwiemy sie!</strong></p>
                         <div class="col-11">
                             <form name="sentMessage" id="contactForm" action="https://formspree.io/marcel72press@gmail.com" method="POST">
                                 <div class="control-group">
                                     <div class="form-group floating-label-form-group controls">
-                                        <label>Imię</label>
                                         <input type="text" class="form-control" placeholder="Imię" id="name" required data-validation-required-message="Podaj swoje imie">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <div class="form-group floating-label-form-group controls">
-                                        <label>Email</label>
                                         <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Podaj swoj email adres.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <div class="form-group col-xs-12 floating-label-form-group controls">
-                                        <label>Numer telefonu</label>
                                         <input type="tel" class="form-control" placeholder="NumerTel" id="phone" required data-validation-required-message="Podaj swoj numer telefonu.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <div class="form-group floating-label-form-group controls">
-                                        <label>Wiadomość</label>
                                         <textarea rows="5" class="form-control" placeholder="Wiadomość" id="message" required data-validation-required-message="Napisz swoja wiadomosc."></textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
@@ -359,7 +356,7 @@
                 </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted "> Marcel Kamiński</p>
+                    <p class="copyright text-muted text-center "> Marcel Kamiński</p>
                 </div>
             </div>
         </div>
