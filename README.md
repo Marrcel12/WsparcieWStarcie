@@ -1,0 +1,1 @@
+Wsdarcie w starcie
