@@ -34,7 +34,7 @@ function mapaStart() {
     var rozmiar_cien = new google.maps.Size(59, 32);
     var punkt_startowy = new google.maps.Point(0, 0);
     var punkt_zaczepienia = new google.maps.Point(16, 16);
-    var ikona = new google.maps.MarkerImage("https://iv.pl/images/56947486804454086662.png", rozmiar, punkt_startowy, punkt_zaczepienia);
+    var ikona = new google.maps.MarkerImage("https://zapodaj.net/a2fd6affc2ea4.png.html", rozmiar, punkt_startowy, punkt_zaczepienia);
 
     // stworzenie markera
      markerAdd(52.255027, 21.047759, {
