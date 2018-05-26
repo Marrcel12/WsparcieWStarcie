@@ -152,16 +152,8 @@ font-size: 50px;
     z-index: 55;
 }
 .about{
-    height: 54vh;
     font-size: 2vh;
 }
-
-.picAbout {
-    background-image: url(../img/portfolio/Thinking%20and%20Awareness.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
 
 
 /*formluarz*/
@@ -245,7 +237,6 @@ font-size: 50px;
     margin-bottom: 4vh;
 }
 .col-6 img{
-    width: 45vw;
     margin-left: 2vw;
 }
 .rekrutacja ul {
@@ -290,6 +281,14 @@ footer {
     text-transform: uppercase;
     border-radius: 0;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* DODAŁEM */
+iframe {
+    width: 100%;
+    height: 450px;
+}
+.row {
+    margin: 0;
 }
 
 
