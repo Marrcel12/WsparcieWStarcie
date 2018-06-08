@@ -80,10 +80,12 @@ img::-moz-selection {
     color: #fff;
     background: transparent;
 }
+
 /*Tu skonczylem*/
+
 #mainNav {
     position: fixed;
-    
+
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -133,16 +135,17 @@ header.masthead .overlay {
     background-color: #212529;
     opacity: 0.5;
 }
+
 header.masthead .site-heading {
     padding: 200px 0 150px;
     color: white;
-font-size: 50px;
+    font-size: 50px;
     margin-top: 0;
 
     text-align: center;
 }
 
-.ikonka{
+.ikonka {
     width: 6vw;
     padding: 1%;
     position: fixed;
@@ -151,12 +154,15 @@ font-size: 50px;
     transform: translateY(-110%);
     z-index: 55;
 }
-.about{
+
+.about {
     font-size: 2vh;
+    /*    border-bottom: 1px solid #212529;*/
 }
 
 
 /*formluarz*/
+
 .floating-label-form-group {
     font-size: 14px;
     position: relative;
@@ -178,6 +184,7 @@ font-size: 50px;
     box-shadow: none !important;
     font-family: 'Lora', 'Times New Roman', serif;
 }
+
 /**/
 
 #Cm {
@@ -192,87 +199,131 @@ font-size: 50px;
     background-repeat: no-repeat;
 }
 
-.img1 {
-
-    background-image: url(../img/portfolio/box_of_cookies.jpg);
-
-
+.img {
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-position: center;
+    background-size: contain;
+   
 }
 
-.img2 {
-
-    background-image: url(../img/portfolio/chaotic_paint.jpg);
 
 
+
+
+.img>img{
+    width: 100%;
 }
 
-.img3 {
-
-    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
 
 
-}
-.locations-title{
+.locations-title {
     margin-top: 10vh;
 }
 
-.locations{
+.locations {
     margin-top: 3vh;
+    padding-bottom: 25px;
+    /*    border-bottom: 1px solid black;*/
 }
+
 #map {
-   
+
     height: 500px;
     border: 1px solid black;
 }
-.listPlace{
+
+.listPlace {
     font-size: 1.7vh;
 }
 
-.lowList{
+.lowList {
     font-size: 1.6vh;
 }
-#Rekrutacja{
+
+#Rekrutacja {
     padding: 2%;
     margin-top: 6vh;
     margin-bottom: 4vh;
 }
-.col-6 img{
+
+.col-6 img {
     margin-left: 2vw;
 }
+
 .rekrutacja ul {
 
-list-style-type: none;
+    list-style-type: none;
 
 
 }
-#Oferta{
+
+.line {
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    background-color: black;
+    height: 1px;
+}
+
+.rekrutacja li {
+    padding: 1.5px;
+}
+
+#Oferta {
     padding: 2%;
 }
-.oferta{
-    margin-top: 5%;
+
+.oferta {
+    margin-top: 5vh;
 }
-.oferta{
+
+.oferta {
     padding: 1%;
 }
-.info2{
-    
-border-left-style: outset;
+
+.oferta-titleFin {
+    margin-top: 10px;
+}
+
+.info2 {
+
+    border-left-style: outset;
 
 }
 
+
+.Cowork {
+    margin-top: 5vh;
+}
+
+
 footer {
-        margin-top: 17vh;
+    margin-top: 17vh;
     padding: 50px 0 65px;
 }
 
-.contact{
-    margin-top: 25vh;
+.contact {
+    margin-top: 10vh;
     padding: 2%;
 }
-.contact-form{
-    
-    margin-top: 5vh;
+
+.contact p {
+    margin: 10px;
+
+
 }
+
+.contact-form {
+    font-family: 'Lora', 'Times New Roman', serif;
+}
+
+}
+
+margin-top: 5vh;
+}
+
 .btn {
     font-size: 14px;
     font-weight: 800;
@@ -282,14 +333,12 @@ footer {
     border-radius: 0;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-/* DODAŁEM */
+
 iframe {
     width: 100%;
     height: 450px;
 }
+
 .row {
     margin: 0;
 }
-
-
-
