@@ -4,7 +4,7 @@
     font-size: 19px;
 
     color: rgb(41, 24, 24);
-    font-weight: bolder;
+    
     font-family: 'Lora', 'Times New Roman', serif;
 }
 
@@ -13,32 +13,34 @@ body {
 }
 
 section {
-    padding: 2%;
+    padding: 5%;
 }
 
-section.YouthCenter {
-    height: 50vh;
-    background-image: url(../img/IMG_1083.jpg);
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+section img {
+   
+    
+    height: 25vh;
+    border:solid 1px black;
 
 }
 
 section.MainGoal {
-    height: 30vh;
-    background-color: rgba(158, 158, 158, 0.54);
 
+    
 }
 
 section.IndividualMentor {
-    background-image: url(../img/IMG_1083.jpg);
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 section.WideAidOffer{
-    background-color: rgba(158, 158, 158, 0.54);
+   
+}
+.line{
+    width: 75vw;
+    background-color: black;
+    height: 1px;
+       margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    
 }

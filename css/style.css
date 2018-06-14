@@ -81,7 +81,7 @@ img::-moz-selection {
     background: transparent;
 }
 
-/*Tu skonczylem*/
+
 
 #mainNav {
     position: fixed;
@@ -100,6 +100,7 @@ img::-moz-selection {
     padding: 13px;
     text-transform: uppercase;
     color: #343a40;
+    
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -107,6 +108,10 @@ img::-moz-selection {
     font-weight: 800;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+#navAbout,#navCm,#navRekrutacja,#navOferta,#navCowork,#navContact,#navEng,#navStart
+{ 
+    color: white;
 }
 
 
@@ -139,8 +144,8 @@ header.masthead .overlay {
 header.masthead .site-heading {
     padding: 200px 0 150px;
     color: white;
-    font-size: 50px;
-    margin-top: 0;
+    margin-top: 50%;
+    transform: translateY(-50%);
 
     text-align: center;
 }
