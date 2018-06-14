@@ -16,155 +16,119 @@ var text = ["Pierwsza rozmowa służy rozpoznaniu Twoich potrzeb i pomaga asyste
 
 
 
-document.getElementById("answer0").addEventListener('click', klik(this))
-document.getElementById("answer1").addEventListener('click', klik(this))
-document.getElementById("answer2").addEventListener('click', klik(this))
-document.getElementById("answer3").addEventListener('click', klik(this))
-document.getElementById("answer4").addEventListener('click', klik(this))
-document.getElementById("answer5").addEventListener('click', klik(this))
-document.getElementById("answer6").addEventListener('click', klik(this))
-document.getElementById("answer7").addEventListener('click', klik(this))
-document.getElementById("answer8").addEventListener('click', klik(this))
-document.getElementById("answer9").addEventListener('click', klik(this))
-document.getElementById("answer10").addEventListener('click', klik(this))
-
 
 
 function klik(a) {
+
     var InnerHTML = a.innerHTML;
-    if (InnerHTML == "<b>Na czym polega rozmowa wstępna?</b>") {
+    if (InnerHTML == document.getElementsByClassName("answer")[0].innerHTML) {
+        if (InnerHTML == "<b>Na czym polega rozmowa wstępna?</b>") {
 
-        a.innerHTML += "<p>" + text[0] + "</p>"
-        return;
-    } else {
-        a.innerHTML = "<b>Na czym polega rozmowa wstępna?</b>"
-        return;
+            a.innerHTML += "<p>" + text[0] + "</p>"
+            return;
+        } else {
+            a.innerHTML = "<b>Na czym polega rozmowa wstępna?</b>"
+            return;
+        }
+        console.log("wejscie do pierwszej if")
     }
 
 
-
-    if (InnerHTML == "<b>Do czego zobowiązuje bycie w projekcie?</b>") {
-        a.innerHTML += "<p>" + text[1] + "</p>"
-        return;
-    } else {
-        a.innerHTML = "<b>Do czego zobowiązuje bycie w projekcie?</b>"
-        return;
+    if (InnerHTML == document.getElementsByClassName("answer")[1].innerHTML) {
+        if (InnerHTML == "<b>Do czego zobowiązuje bycie w projekcie?</b>") {
+            a.innerHTML += "<p>" + text[1] + "</p>"
+            return;
+        } else {
+            a.innerHTML = "<b>Do czego zobowiązuje bycie w projekcie?</b>"
+            return;
+        }
     }
-    //    }
-    //    
-    //        if (InnerText == "Jak długo trzeba być w projekcie?") {
-    //            var para = document.createElement("P");
-    //            var t = document.createTextNode(text[2]);
-    //            para.appendChild(t)
-    //            a.appendChild(para)
-    //            licznik[2]++
-    //        }
-    //     else {
-    //        a.innerHTML = "<b>Jak długo trzeba być w projekcie?</b>"
-    //        licznik[2] = 0
-    //    }
-    //   
-    //        if (InnerText == "Kiedy można zrezygnować z uczestnictwa w projekcie?") {
-    //            var para = document.createElement("P");
-    //            var t = document.createTextNode(text[3]);
-    //            para.appendChild(t)
-    //            a.appendChild(para)
-    //            licznik[3]++
-    //        }
-    //     else {
-    //        a.innerHTML = "<b>Kiedy można zrezygnować z uczestnictwa w projekcie?</b>"
-    //        licznik[3] = 0
-    //    }
-    //    
-    //        if (InnerText == "Czy mój udział w projekcie zależy od zarobków?") {
-    //            var para = document.createElement("P");
-    //            var t = document.createTextNode(text[4]);
-    //            para.appendChild(t)
-    //            a.appendChild(para)
-    //            licznik[4]++
-    //        }
-    //     else {
-    //        a.innerHTML = "<b>Czy mój udział w projekcie zależy od zarobków?</b>"
-    //        licznik[4] = 0
-    //    }
-    //    
-    //        if (InnerText == "Czy muszę coś płacić biorąc udział w projekcie?") {
-    //            var para = document.createElement("P");
-    //            var t = document.createTextNode(text[5]);
-    //            para.appendChild(t)
-    //            a.appendChild(para)
-    //            licznik[5]++
-    //        }
-    //     else {
-    //        a.innerHTML = "<b>Czy muszę coś płacić biorąc udział w projekcie?</b>"
-    //        licznik[5] = 0
-    //    }
-    //    
-    //        if (InnerText == "Kim są asystenci?") {
-    //            var para = document.createElement("P");
-    //            var t = document.createTextNode(text[6]);
-    //            para.appendChild(t)
-    //            a.appendChild(para)
-    //            licznik[6]++
-    //        }
-    //    else{
-    //         a.innerHTML="<b>Kim są asystenci?</b>"
-    //         licznik[6]=0
-    //    }
-    //    
-    //        if (InnerText == "Na czym polegają spotkania z asystentem usamodzielniania?") {
-    //            var para = document.createElement("P");
-    //            var t = document.createTextNode(text[7]);
-    //            para.appendChild(t)
-    //            a.appendChild(para)
-    //            licznik[7]++
-    //        }
-    //     else {
-    //        a.innerHTML = "<b>Na czym polegają spotkania z asystentem usamodzielniania?</b>"
-    //        licznik[7] = 0
-    //    }
-    //    
-    //        if (InnerText == "W jakich kwestia życiowych można otrzymać pomoc?") {
-    //            var para = document.createElement("P");
-    //            para.innerHTML = text[8]
-    //            a.appendChild(para)
-    //            licznik[8]++
-    //        }
-    //     else {
-    //        a.innerHTML = "<b>W jakich kwestia życiowych można otrzymać pomoc?</b>"
-    //        licznik[8] = 0
-    //    }
-    //    
-    //        if (InnerText == "W czym nie możemy pomóc?") {
-    //            var para = document.createElement("P");
-    //            var t = document.createTextNode(text[9]);
-    //            para.appendChild(t)
-    //            a.appendChild(para)
-    //            licznik[9]++
-    //        }
-    //     else {
-    //        a.innerHTML = "<b>W czym nie możemy pomóc?</b>"
-    //        licznik[9] = 0
-    //    }
-    //    
-    //        if (InnerText == "Kto decyduje o tym, z kim będę pracować w projekcie?") {
-    //            var para = document.createElement("P");
-    //            var t = document.createTextNode(text[10]);
-    //            para.appendChild(t)
-    //            a.appendChild(para)
-    //            console.log("koniec")
-    //            licznik[10]++
-    //        }
-    //     else {
-    //        a.innerHTML = "<b>Kto decyduje o tym, z kim będę pracować w projekcie?</b>"
-    //        licznik[10] = 0
-    //    }
-    //
-    //
-    //function klik2(a){
-    //     var InnerText = a.innerText;
-    //    if (InnerText == "Na czym polega rozmowa wstępna?") {
-    //        
-    //    }
-    //    
+
+    if (InnerHTML == document.getElementsByClassName("answer")[2].innerHTML) {
+        if (InnerHTML == "<b>Jak długo trzeba być w projekcie?</b>") {
+            a.innerHTML += "<p>" + text[2] + "</p>"
+            return;
+        } else {
+            a.innerHTML = "<b>Jak długo trzeba być w projekcie?</b>"
+            return;
+        }
+    }
+
+    if (InnerHTML == document.getElementsByClassName("answer")[3].innerHTML) {
+        if (InnerHTML == "<b>Kiedy można zrezygnować z uczestnictwa w projekcie?</b>") {
+            a.innerHTML += "<p>" + text[3] + "</p>"
+            return;
+        } else {
+            a.innerHTML = "<b>Kiedy można zrezygnować z uczestnictwa w projekcie?</b>"
+            return;
+        }
+    }
+    if (InnerHTML == document.getElementsByClassName("answer")[4].innerHTML) {
+        if (InnerHTML == "<b>Czy mój udział w projekcie zależy od zarobków?</b>") {
+            a.innerHTML += "<p>" + text[4] + "</p>"
+            return;
+
+        } else {
+            a.innerHTML = "<b>Czy mój udział w projekcie zależy od zarobków?</b>"
+            return;
+        }
+    }
+    if (InnerHTML == document.getElementsByClassName("answer")[5].innerHTML) {
+        if (InnerHTML == "<b>Czy muszę coś płacić biorąc udział w projekcie?</b>") {
+            a.innerHTML += "<p>" + text[5] + "</p>"
+            return;
+
+        } else {
+            a.innerHTML = "<b>Czy muszę coś płacić biorąc udział w projekcie?</b>"
+
+        }
+    }
+    if (InnerHTML == document.getElementsByClassName("answer")[6].innerHTML) {
+
+        if (InnerHTML == "<b>Kim są asystenci?</b>") {
+            a.innerHTML += "<p>" + text[6] + "</p>"
+            return;
+        } else {
+            a.innerHTML = "<b>Kim są asystenci?</b>"
+
+        }
+    }
+    if (InnerHTML == document.getElementsByClassName("answer")[7].innerHTML) {
+        if (InnerHTML == "<b>Na czym polegają spotkania z asystentem usamodzielniania?</b>") {
+            a.innerHTML += "<p>" + text[7] + "</p>"
+            return;
+
+        } else {
+            a.innerHTML = "<b>Na czym polegają spotkania z asystentem usamodzielniania?</b>"
+
+        }
+    }
+    if (InnerHTML == document.getElementsByClassName("answer")[8].innerHTML) {
+        if (InnerHTML == "<b>W jakich kwestia życiowych można otrzymać pomoc?</b>") {
+            a.innerHTML += "<p>" + text[8] + "</p>"
+            return;
+        } else {
+            a.innerHTML = "<b>W jakich kwestia życiowych można otrzymać pomoc?</b>"
+
+        }
+    }
+    if (InnerHTML == document.getElementsByClassName("answer")[9].innerHTML) {
+        if (InnerHTML == "<b>W czym nie możemy pomóc?</b>") {
+            a.innerHTML += "<p>" + text[9] + "</p>"
+            return;
+        } else {
+            a.innerHTML = "<b>W czym nie możemy pomóc?</b>"
+        }
+    }
+    if (InnerHTML == document.getElementsByClassName("answer")[10].innerHTML) {
+        if (InnerHTML == "<b>Kto decyduje o tym, z kim będę pracować w projekcie?</b>") {
+            a.innerHTML += "<p>" + text[10] + "</p>"
+            return;
+
+        } else {
+            a.innerHTML = "<b>Kto decyduje o tym, z kim będę pracować w projekcie?</b>"
+
+        }
+
+    }
 }
