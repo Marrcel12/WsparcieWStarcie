@@ -342,3 +342,35 @@ iframe {
 .row {
     margin: 0;
 }
+/*FAQ*/
+
+.titleFAQ{
+    padding: 2vh;
+    padding-left: 0;
+}
+.answer>b:hover{
+    cursor: pointer;
+    color: darkslateblue;
+    
+}
+/*
+.titleFAQ2{
+    padding: 4%;
+    position: absolute;
+    text-align: center;
+   right: 0;
+    bottom:0;
+    padding-right: 0;
+   transform: translateX(-50%)
+    
+}
+.titleFAQ2>a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: darkslateblue;
+}
+.titleFQA2>i{
+    font-size: 7vh;
+}
+*/
+
