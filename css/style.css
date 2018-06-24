@@ -159,10 +159,17 @@ header.masthead .site-heading {
     transform: translateY(-110%);
     z-index: 55;
 }
-
+#about1{
+    height: 1px;
+    margin-bottom: 8.5vh;
+    
+}
 .about {
     font-size: 2vh;
     /*    border-bottom: 1px solid #212529;*/
+}
+.about p {
+/*    font-size: 2.2vh;*/
 }
 
 
@@ -262,9 +269,12 @@ header.masthead .site-heading {
 
 
 }
-
+.colorRek{
+    color: blue;
+}
 .line {
-    margin-top: 5vh;
+    margin-top: 3.4vh;
+    margin-bottom: 4.5vh;
     margin-left: auto;
     margin-right: auto;
     width: 60vw;
@@ -281,7 +291,7 @@ header.masthead .site-heading {
 }
 
 .oferta {
-    margin-top: 5vh;
+    margin-top: 2vh;
 }
 
 .oferta {
@@ -305,7 +315,7 @@ header.masthead .site-heading {
 
 
 footer {
-    margin-top: 17vh;
+    margin-top: 10vh;
     padding: 50px 0 65px;
 }
 
@@ -322,8 +332,12 @@ footer {
 
 .contact-form {
     font-family: 'Lora', 'Times New Roman', serif;
+    font-size: 5vh;
+    
 }
-
+.contact-form p{
+    text-align: center;
+}
 }
 
 margin-top: 5vh;
@@ -347,17 +361,19 @@ iframe {
 .row {
     margin: 0;
 }
+footer img{
+    height: 20vh;
+    transform: translateX(-50%);
+    margin-left: 50%;
+}
 /*FAQ*/
 
 .titleFAQ{
     padding: 2vh;
     padding-left: 0;
 }
-.answer>b:hover{
-    cursor: pointer;
-    color: darkslateblue;
-    
-}
+
+*/
 /*
 .titleFAQ2{
     padding: 4%;
